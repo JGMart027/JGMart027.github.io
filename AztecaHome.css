@@ -82,8 +82,8 @@ li a:hover {
 }
 
 #welcome {
-	height: 15.625em;
-	width: 33.125em;
+	height: 250px;
+	width: 530px;
 	border-radius: 0.625em;
 	color: white;
 	margin: auto;
