@@ -75,6 +75,15 @@ li a:hover {
 	
 
   /*background-color: rgba(51,51,51,0.7); */
+  #bodybox {
+		background-color: rgba(51,51,51,0.9);
+		height: 76em;
+		width: 70em;
+		margin:auto;
+		margin-top: 10%;
+		border-radius: 15px;  
+  }
+
 
  #infoBox {
 	background-color: rgba(51,51,51,0.9);
@@ -197,7 +206,7 @@ td {
 	height: 47em;
 	width: 62em;
 	top: 36em;
-	left: 10%;
+	left: 11%;
 	border-radius: 15px;
 }
 
