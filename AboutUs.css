@@ -130,19 +130,23 @@ li a:hover {
 
 
 
-#pic {
-	height:20em;
-	width: 29em;
+#pic1 {
+	height:24em;
+	width: 30em;
 	position: absolute;
-
-	
-	
+	top: 7em;
+	left: -0.5em;
+	border-radius:15px;
 }
 
-
-
-
-
+#pic2 {
+	height:24em;
+	width: 29em;
+	position: absolute;
+	left: 65%;
+	top: 7em;
+	border-radius: 15px;
+}
 
 
 #bottomBanner {
