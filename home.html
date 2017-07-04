@@ -1,216 +1,28 @@
-<!DOCTYPE html>
-<html lang="en-US">
-	<head>
-		<meta charset="UTF-8"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-		<title>Azteca Tiki Huts - Home</title>
-	</head>
-
-<!------------CSS----------->
-	<style>
-		body{
-			background-image: url("http://i.imgur.com/Dq3Yvhk.jpg");
-			background-attachment: fixed;
-			background-repeat: no-repeat;
-			background-size: 100% 100%;
-			overflow-x: hidden;
-			font-size:18px;
-		}
-		
-		.bannerpics{
-			border-radius: 0 0 5px 5px;
-		}
-		
-		.well{
-			background-color: #222;
-			width: 40%;
-			border-radius: 8px;
-			border: none;
-		}
-		
-		.top-buffer { margin-top:0%; }
-
-		#welcome_message{ color:white;}
-		
-		.container-fluid{
-			padding-left:0;
-			padding-right:0;
-		}
-		
-		.navbar{
-			margin-right:0;
-		
-		}
-
-		.nav-pills{
-			margin-left:5px;
-		}
-
-		 .col-lg--2{
-		 	padding-right:0;
-		 	padding-left:0;
-		 }
-		  
-		  .col-lg-6{
-		  	padding-left: 0;
-		  	padding-right: 0;
-		  }
-
-		.col-sm-2{
-			padding-left:0;
-			padding-right:0;
-
-		}
-		  
-		  .row {
-		  	position: relative;
-		  	padding:none;
-		  	margin-bottom:-10px;
-		}
-	
-		.row .d {
-		  	position: absolute;
-		  	top: 0;
-		}
-
-		@media (max-width: @screen-xs) {
-    		body{font-size: 10px;}
-			
-		}
-
-		@media (max-width: @screen-sm) {
-    		body{font-size: 14px;}
-		}
-		
-		.myjumbotron{
-			 padding: 10px;
-			 margin-bottom: 30px;
-			 font-size: 21px;
-			 font-weight: 200;
-			 line-height: 2.1428571435;
-			 color:white;
-			 background-color: #222222;
-		  	 border-radius:10px;
-		 }
-		 
-		 .nav-pills{
-		 	background-color:#222222;
-		 	margin-bottom: 20px;
-	 	}
-	 	
-		#mpic1{
-			padding-right:2.5px;	
-		}
-		
-		#mpic2{
-			padding-left:2.5px;
-		}
-		
-		.mobilepics{
-			border-radius:20px;
-			margin-bottom:4px;
-		}
-		
-		#fb{
-			background-color:#3B5998;
-			color:white;
-		}
-		
-		p{margin-top:-40px;}
-	</style>
-<!---------END CSS--------->
-
-
-<!---------------BODY----------------->
-
-	<body>
-		<header>
-			<div class="container-fluid">
-
-				<div class="row no-gutters">
-				
-					<div class="hidden-xs col-sm-2 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1">
-						<img id="Banner_pic1" class="bannerpics img-responsive img-fluid" src="http://i.imgur.com/zscTnY2.png" alt=""/>
-					</div>
-							
-					<div class="col-sm-8 col-md-6 col-lg-6">
-						<img class="img-responsive img-fluid img-rounded" id="banner" src="http://i.imgur.com/Vrd06ED.png" alt="Azteca Tiki Huts"/>
-					</div>
-						
-					
-					<!--------NAV BAR---------->
-
-					<div class="hidden-xs col-xs-12 col-sm-8 col-md-6 col-lg-6">
-					<nav class="col align-self-start navbar navbar-inverse">
-						<div class="">
-							<ul class="nav navbar-nav">
-								<li class="active"><a href="index.html">Home</a></li>
-								<li><a href="Tiki.html">Tiki Huts</a></li>
-								<li><a href="Decks.html">Decks</a></li>
-								<li><a href="AboutUs.html">About Us</a></li>
-								<li><a href="ContactUs.html">Contact Us</a></li>
-							</ul>
-						</div>
-					</nav>
-					</div>
-					
-					
-					 <ul class="nav nav-pills hidden-sm hidden-md hidden-lg">
-					  <li class="active"><a href="index.html">Home</a></li>
-					  <li><a href="Tiki.html">Tiki Huts</a></li>
-					  <li><a href="Decks.html">Decks</a></li>
-					  <li><a href="ContactUs.html">Contact Us</a></li>
-					</ul> 
-
-					<!--------END NAV---------->	
-				
-					<div class="d hidden-xs col-sm-2 col-sm-offset-10 col-md-offset-9 col-lg-offset-9">
-						<img id="banner_pic2" class="bannerpics img-responsive img-fluid " src="http://i.imgur.com/zscTnY2.png" alt=""/>
-					</div>
-					
-				</div><!--row1-->
-			
-			</div><!--container-fluid-->
-		</header>
-	
-
-		
-		<!--WELCOME MESSAGE-->
-		<img id="mpic1" class="mobilepics hidden-sm hidden-md hidden-lg col-xs-6" src="http://i.imgur.com/G0uFVVd.png?1" height="122px">
-		<img id="mpic2" class="mobilepics hidden-sm hidden-md hidden-lg col-xs-6" src="https://scontent-mia1-1.xx.fbcdn.net/v/t1.0-9/18157677_2148701938689377_4633592103651453369_n.jpg?oh=e319b0a1853aef0c956c9e6e07348745&oe=59A79BD3" height="122px">
-		
-		
-		<div class="container">
-			<div class="myjumbotron text-center col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-5 col-lg-offset-3">
-				<h2>Welcome to our page!</h2>
-				<p>
-					<br>We specialize in custom built Tiki Huts.
-					<br>Any size or style, we build them all!
-					<br>Serving all of Florida since 1992<span class="hidden-sm hidden-md hidden-lg">.</span>
-					<br><span class="hidden-xs">with excellence through performance.</span>
-				</p>
-			</div><!--myjumbotron-->
-		</div><!--container-->
-		
-
-		<!--END WELCOME-->
-		
-
-			<a id="fb" class="btn text-center hidden-sm hidden-md hidden-lg col-xs-5 col-xs-offset-3" role="button" href="https://www.facebook.com/aztecatikihuts">
-			Like Us On Facebook!
-			<a>
-		
-
-
-	
-		<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-	
-	</body>
-	<!-----END BODY----->
-	
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/home/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/home/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+    </div>
+  </body>
 </html>
